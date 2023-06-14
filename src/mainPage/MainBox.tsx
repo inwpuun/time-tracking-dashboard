@@ -1,7 +1,7 @@
 import CSS from 'csstype';
 import { Link } from 'react-router-dom';
 
-export function MainBox( {type} ) {
+export function MainBox( {type}: {type: string} ) {
     let styleDay = ""
     let styleWeek = ""
     let styleMonth = ""

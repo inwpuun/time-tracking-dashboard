@@ -1,8 +1,8 @@
 import CSS from 'csstype';
 
-export function DetailedBox( {title, type, previous, present} ) {
+export function DetailedBox( {title, type, previous, present}: {title: string, type: string, previous: number, present: number} ) {
     
-    function uniqueBackground(title) {
+    function uniqueBackground(title: string) {
         let background: string = ""
         switch(title) {
             case "Work":
