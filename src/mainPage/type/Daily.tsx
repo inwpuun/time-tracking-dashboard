@@ -6,7 +6,7 @@ import "./../../../css/App.css"
 export function Daily() {
     return (
         <>
-            <body>
+            <div className='body1'>
                 <div className="mainBox">
                     <MainBox type="Day" />
                 </div>
@@ -18,7 +18,7 @@ export function Daily() {
                     <DetailedBox title="Social" type="Day" present={1} previous={3} />
                     <DetailedBox title="Self Care" type="Day" present={0} previous={1} />
                 </div>
-            </body>
+            </div>
             <Attribution />
         </>
     )

@@ -1,5 +1,6 @@
 import CSS from 'csstype';
 import { Link } from 'react-router-dom';
+import jeremy from "./../assets/image-jeremy.png"
 
 export function MainBox( {type}: {type: string} ) {
     let styleDay = ""
@@ -29,7 +30,7 @@ export function MainBox( {type}: {type: string} ) {
     return ( 
         <form>
         <div className="topBox">
-            <img src="../public/image-jeremy.png" alt="profile" />
+            <img src={jeremy} alt="profile" />
             <div className="text">
                 <h1>Report for</h1>
                 <h2>Jeremy Robson</h2>
