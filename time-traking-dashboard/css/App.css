@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background:hsl(226, 43%, 10%);
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBox {
+    background: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    width: 17.9%;
+    height: 51.3%;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 0.6% 0 11.7%; */
+}
+
+.mainBox .topBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 78.5%;
+    background: hsl(246, 80%, 60%);
+    border-radius: 10px;
+}
+
+.mainBox .topBox img {
+    width: 20%;
+    border: white 2px solid;
+    border-radius: 50%;
+    margin: 10% 0 0 10%;
+}
+
+.mainBox .topBox h1 {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(236, 100%, 87%);
+    align-self: flex-start;
+    margin: 10% 0 0 10%;
+}
+
+.mainBox .topBox h2 {
+    font-size: 40px;
+    font-weight: 300;
+    align-self: flex-start;
+    margin: 2.5% 0 0 10%;
+}
+
+.mainBox ul {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0 0 -5%;
+    gap: 20px;
+    font-size: 17px;
+    list-style: none;
+}
+
+.mainBox ul li .butt {
+    text-decoration: none;
+    color: hsl(235, 45%, 61%);
+}
+
+.mainBox ul li .butt:hover {
+    color: white;
+}
+
+.Boxes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 51.3%;
+    width: 40%;
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 1.4% 1.4% 1.4%;
+    width: 24%;
+    height: 48.6%;
+    border-radius: 10px;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    background: hsl(235, 46%, 20%);
+    width: 100%;
+    height: 81.8%;
+    
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inside:hover {
+    background: hsl(235, 36%, 30%);
+}
+
+.topLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+
+.topLine img {
+    margin: 0 0 0 0;
+    width: 10%;
+    height: 10%;
+    margin: 15% 10% 0 0;
+}
+
+.topLine h1 {
+    font-size: 18px;
+    font-weight: 300;
+    align-self: flex-start;
+    margin: 10% 0 0 10%;
+}
+
+.inside h2 {
+    font-size: 48px;
+    font-weight: 400;
+    align-self: flex-start;
+    margin: 10% 0 0 10%;
+}
+
+.inside h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(235, 45%, 61%);
+    align-self: flex-start;
+    margin: 2.5% 0 0 10%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 750px) {
+
+    body {
+        background:hsl(226, 43%, 10%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 100vh;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .mainBox {
+        background: hsl(235, 46%, 20%);
+        border-radius: 10px;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0.6% 0 11.7%;
+    }
+
+    .mainBox .topBox {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        background: hsl(246, 80%, 60%);
+        border-radius: 10px;
+    }
+
+    .mainBox .topBox img {
+        width: 20%;
+        border: white 2px solid;
+        border-radius: 50%;
+        margin: 10% 0 0 10%;
+    }
+
+    .mainBox .topBox h1 {
+        font-size: 12px;
+        font-weight: 400;
+        color: hsl(236, 100%, 87%);
+        align-self: flex-start;
+        margin: 10% 0 0 10%;
+    }
+
+    .mainBox .topBox h2 {
+        font-size: 40px;
+        font-weight: 300;
+        justify-self: flex-end;
+        align-self: flex-start;
+        margin: 2.5% 0 0 10%;
+    }
+
+    .mainBox ul {
+        display: flex;
+        flex-direction: row;
+        margin: 10% 0 0 -5%;
+        gap: 20px;
+        font-size: 17px;
+        list-style: none;
+    }
+
+    .mainBox ul li .butt {
+        text-decoration: none;
+        color: hsl(235, 45%, 61%);
+    }
+
+    .mainBox ul li .butt:hover {
+        color: white;
+    }
+
+    .Boxes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 1.4% 0 0 1.4%;
+        width: 100%;
+        height: 15%;
+        border-radius: 10px;
+    }
+
+    .inside {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 0;
+        background: hsl(235, 46%, 20%);
+        width: 100%;
+        height: 81.8%;
+        
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .inside:hover {
+        background: hsl(235, 36%, 30%);
+    }
+
+    .topLine {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .topLine img {
+        margin: 0 0 0 0;
+        width: 10%;
+        height: 10%;
+        margin: 15% 10% 0 0;
+    }
+
+    .topLine h1 {
+        font-size: 18px;
+        font-weight: 300;
+        align-self: flex-start;
+        margin: 10% 0 0 10%;
+    }
+
+    .inside h2 {
+        font-size: 48px;
+        font-weight: 400;
+        align-self: flex-start;
+        margin: 10% 0 0 10%;
+    }
+
+    .inside h3 {
+        font-size: 12px;
+        font-weight: 400;
+        color: hsl(235, 45%, 61%);
+        align-self: flex-start;
+        margin: 2.5% 0 0 10%;
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+    color: hsl(228, 45%, 44%);
+    }
+}
