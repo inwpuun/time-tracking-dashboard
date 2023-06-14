@@ -6,7 +6,7 @@ import "./../../../css/App.css"
 export function Weekly() {
     return (
         <>
-            <body>
+            <div className='body1'>
                 <div className="mainBox">
                     <MainBox type="Week" />
                 </div>
@@ -18,7 +18,7 @@ export function Weekly() {
                     <DetailedBox title="Social" type="Week" present={5} previous={10} />
                     <DetailedBox title="Self Care" type="Week" present={2} previous={2} />
                 </div>
-            </body>
+            </div>
             <Attribution />
         </>
     )

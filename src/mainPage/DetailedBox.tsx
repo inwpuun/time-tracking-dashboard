@@ -7,25 +7,25 @@ export function DetailedBox( {title, type, previous, present}: {title: string, t
         let background: string = ""
         switch(title) {
             case "Work":
-                background = 'hsl(15, 100%, 70%) url(src/assets/icon-work.svg) no-repeat top right'
+                background = 'hsl(15, 100%, 70%) url(/icon-work.svg) no-repeat top right'
                 break;
             case "Play":
-                background = 'hsl(195, 74%, 62%) url(src/assets/icon-play.svg) no-repeat top right'
+                background = 'hsl(195, 74%, 62%) url(/icon-play.svg) no-repeat top right'
                 break;
             case "Study":
-                background = 'hsl(348, 100%, 68%) url(src/assets/icon-study.svg) no-repeat top right'
+                background = 'hsl(348, 100%, 68%) url(/icon-study.svg) no-repeat top right'
                 break;
             case "Exercise":
-                background = 'hsl(145, 58%, 55%) url(src/assets/icon-exercise.svg) no-repeat top right'
+                background = 'hsl(145, 58%, 55%) url(/icon-exercise.svg) no-repeat top right'
                 break;
             case "Social":
-                background = 'hsl(264, 64%, 52%) url(src/assets/icon-social.svg) no-repeat top right'
+                background = 'hsl(264, 64%, 52%) url(/icon-social.svg) no-repeat top right'
                 break;
             case "Self Care":
-                background = 'hsl(43, 84%, 65%) url(src/assets/icon-self-care.svg) no-repeat top right'
+                background = 'hsl(43, 84%, 65%) url(/icon-self-care.svg) no-repeat top right'
                 break;
             default:
-                background = 'hsl(15, 100%, 70%) url(src/assets/icon-work.svg) no-repeat top right'
+                background = 'hsl(15, 100%, 70%) url(/icon-work.svg) no-repeat top right'
         }
         return background
     }

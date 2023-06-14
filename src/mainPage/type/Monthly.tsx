@@ -6,7 +6,7 @@ import "./../../../css/App.css"
 export function Monthly() {
     return (
         <>
-            <body>
+            <div className='body1'>
                 <div className="mainBox">
                     <MainBox type="Month" />
                 </div>
@@ -18,7 +18,7 @@ export function Monthly() {
                     <DetailedBox title="Social" type="Month" present={21} previous={23} />
                     <DetailedBox title="Self Care" type="Month" present={7} previous={11} />
                 </div>
-            </body>
+            </div>
             <Attribution />
         </>
     )
