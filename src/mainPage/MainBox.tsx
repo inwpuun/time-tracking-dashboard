@@ -5,9 +5,9 @@ export function MainBox( {type} ) {
     let styleDay = ""
     let styleWeek = ""
     let styleMonth = ""
-    if (type == "Day") {
+    if (type === "Day") {
         styleDay = "white"
-    } else if (type == "Week") {
+    } else if (type === "Week") {
         styleWeek = "white"
     } else {
         styleMonth = "white"
@@ -30,8 +30,10 @@ export function MainBox( {type} ) {
         <form>
         <div className="topBox">
             <img src="../public/image-jeremy.png" alt="profile" />
-            <h1>Report for</h1>
-            <h2>Jeremy Robson</h2>
+            <div className="text">
+                <h1>Report for</h1>
+                <h2>Jeremy Robson</h2>
+            </div>
         </div>
 
         <ul>
